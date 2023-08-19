@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.App{
+    margin-left: 75vh;
+    margin-top: 10vh;
+    background-color:#FFFFFF;
+    box-shadow: 1px 1px 1px 1px;
+    width: 70vh;
+    height: 70vh;
+}
+.App2{
+    margin-left: 95vh;
+    margin-top: 10vh;
+}
+h2{
+    padding-left: 75px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.welcome{
+    font-size: 18px;
+    padding-left: 75px;
+    padding-top: 5vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input1,.input2{
+    width: 45vh;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid ;
+    
+}
+.btn{
+    font-size: 18px;
+    width: 46vh;
+    height: 6vh;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn1{
+    margin-top: 4vh;
+    padding-left: 75px;
 }
-
-.App-link {
-  color: #61dafb;
+.forget{
+    padding-left: 25vh;
+    margin-top: 3vh;
+    /* font-size: 1px; */
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.email,.password{
+    padding-left: 75px;
 }
